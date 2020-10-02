@@ -18,5 +18,7 @@
 	<div class="card">
 		<h1>{name}</h1>
 		<h3>{points}</h3>
+		<button class="btn" on:click={() => (points += 1)}>Add Points</button>
+		<button class="btn btn-dark" on:click={reducePoint}>Reduce Points</button>
 	</div>
 </div>
